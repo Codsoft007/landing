@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: linear-gradient(rgb(0, 0, 0, .8), rgb(0, 0, 0, .2)), url(pexels-pixabay-206359.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.navbar .logo {
+    width: 25%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.8rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.register a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+
+
+}
+
+.register a:hover {
+    font-size: 1.25rem;
+    color: rgb(236, 210, 210);
+}
+
+.register {
+    padding-top: 3vh;
+
+    height: 5vh;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menubar {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border:hover {
+    border: 3px solid white;
+    border-radius: 5px;
+    border-width: .5px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.menubar a:hover {
+    font-size: 19px;
+    color: rgb(237, 212, 212);
+}
+
+.text {
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    background: indianred;
+    padding: 10px 20px;
+}
+
+.text span {
+    letter-spacing: 5px;
+}
+
+.text h1 {
+    font-size: 3.5em;
+}
+
+.hover {
+    border: 1.5px solid transparent;
+
+}
+
+.hover:hover {
+    border: 3px solid rgb(15, 1, 1);
+    border-width: 3px;
+}
